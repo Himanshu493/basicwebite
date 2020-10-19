@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>medhekar music academy</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Medhekar's</h1>
+        <h3> Classical Music Academy</h3>
+    </div>
+    <div id="navbar">
+        <div id="navbars">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="faculties.html">History</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+        <div class="w3-content w3-section" style="width: 100%" style="height: 250px;">
+            <img class="mySlides" src="images/slider (1).jpg" style="width:100%" height="420px">
+            <img class="mySlides" src="images/slider (2).jpg" style="width:100%" height="420px">
+            <img class="mySlides" src="images/slider (3).jpg" style="width:100%" height="420px">
+        </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 4000); // Change image every 4 seconds
+          }
+          </script>
+            <div class="hello">
+               <h1>
+                  <span>Medhekar's</span> Music Academy
+               </h1>
+               <p>Music is an art form, and cultural activity, whose medium is sound. 
+                  General definitions of music include common elements such as pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics (loudness and softness), and the sonic qualities of timbre and texture (which are sometimes termed the "color" of a musical sound). 
+                  Different styles or types of music may emphasize, de-emphasize or omit some of these elements. 
+                  Music is performed with a vast range of instruments and vocal techniques ranging from singing to rapping; there are solely instrumental pieces, solely vocal pieces (such as songs without instrumental accompaniment) and pieces that combine singing and instruments. 
+                  The word derives from Greek. 
+
+                <br>
+                <br>
+                Whether you are simply a hobbyist or a practicing musician aspiring for greater success, Medhekar's Music Academy will train to achieve Your Dreams.
+               </p>
+            </div>
+            <div class="classes">
+                <div class="ourclass">
+                  <h1>We
+                  <span>teach</span>
+                  </h1>
+              </div>
+                    <div class="leftdevice">
+                      <img src="images/harmonium.png" class="image">
+                      <h5>Harmonium</h5>
+                      <p>
+                        Harmonium is a musical instrument which is a free-reed organ that generates sound as air flows past a vibrating piece of thin metal in a frame.
+                        It ia an important instrument in many geners of Indian music especially classical.It is widely used in India and Indian music conserts. 
+                        
+                      </p>
+                    </div>
+                    <div class="leftdevice">
+                        <img src="images/tabla.png" class="image">
+                        <h5>Tabla</h5>
+                        <p>
+                            The Indian theory traces the origin of tabla to indigenous ancient civilization. The stone sculpture carvings in Bhaja Caves depict a woman playing a pair of drums, which some have claimed as evidence for the ancient origin of the tabla in India.[18][19] A different version of this theory states that the tabla acquired a new Arabic name during the Islamic rule, having evolved from ancient Indian puskara drums
+                        </p>
+                    </div>
+                    <div class="leftdevice">
+                        <img src="images/sitar.png" class="image">
+                        <h5>Sitar</h5>
+                        <p>
+                            Used widely throughout the Indian subcontinent, the sitar became popularly known in the wider world through the works of Ravi Shankar, beginning in the late 1950s and early 1960s.[1] In the 1960s, a short-lived trend arose for the use of the sitar in Western popular music, with the instrument appearing on tracks by bands such as The Beatles, The Doors, The Rolling Stones, Metallica and others.
+                        </p>
+                    </div>
+                    <div class="leftdevice">
+                        <img src="images/guitar1.png" class="image">
+                        <h5>Guitar</h5>
+                        <p>
+                            The beginner's course introduces students to the guitar utilizing a holistic approach to teaching. This course includes basic music theory lessons in order to set a foundation, based on which student's can furnish their ability to understand and learn the instrument as and when provided during the duration of the course .
+                        </p>
+
+                    </div>
+                    <div class="clearfix">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="him">
+            <div class="ourlocation">
+              <h4>Our Address</h4>
+                <span class="forminfo">Sr no-56  Konark Garden Hadapsar Pune 411019</span><br>
+                <span class="forminfo">+91 9881758960</span>
+        </div>
+    </body>
+</html>

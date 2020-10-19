@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact US</title>
+    <link href="contact.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Medhekar's</h1>
+        <h3>Music Academy</h3>
+    </div>
+    <div id="navbar">
+        <div id="navbars">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="faculties.html">History</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+
+    <section id="contactsection">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email us and keep update with our latest news</p>
+        </div>
+        <div class="contactform">
+
+
+            <div>
+                <i class="fa fa-map-marker"></i><span class="forminfo">Sr no-56 Konark Garden Hadapsar Pune 411019</span><br>
+                <i class="fa fa-phone"></i><span class="forminfo">phone no +91 9881758960</span><br>
+                <i class="fa fa-envelope"></i><span class="forminfo">medhekarhimu@gmail.com</span><br>
+            </div>
+
+            <div>
+                <form action="contact.php" method="POST"> 
+                    <input name="name"type="text" placeholder="Your Name" required>
+                    <input name="lname" type="text" placeholder="Last Name" required>
+                    <input name="email" type="Email" placeholder="Email" required>
+                    <input name="subject" type="text" placeholder="Subject of this message" required>
+                    <textarea name="message" placeholder="Message" rows="5"required></textarea>
+                    <button  class="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
